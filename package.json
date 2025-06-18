@@ -1,0 +1,24 @@
+{
+  "name": "cliente-registro",
+  "version": "1.0.0",
+  "main": "server/server.js", 
+  "bin": "server/server.js", 
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "Bladimir andrade",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.1.7"
+  },
+  "pkg": {
+    "targets": [
+      "node14-win-x64" 
+    ]
+   
+}}
