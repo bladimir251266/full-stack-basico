@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "server/server.js", 
   "bin": "server/server.js", 
+  "type":"module",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js" 
   },
   "keywords": [],
   "author": "Bladimir andrade",
